@@ -143,7 +143,7 @@
 # while True:
 #     preke = input("Nurodyte prekę arba įrašykite žodį baigti")
 #     if not preke:
-# Enteris u=baigia pirkim1
+# # Enteris u=baigia pirkim1
 #         break
 #     kaina = float(input("Įveskite prekės kainą: "))
 #     prekes_info = {'pavadinimas': preke, 'kaina': kaina}
@@ -161,3 +161,14 @@
 # ar jis yra sąraše. Jei vardas yra sąraše, programa turi išvesti pranešimą "Vardas yra sąraše,"
 # kitu atveju - "Vardo nėra sąraše."
 
+# 2. Turite žodyną su studentų vardais ir jų pažymiais. Parašykite "for" ciklą,
+# kuris išveda kiekvieno studento vardą ir jo pažymį.
+
+studziai = {
+    "Jonas": 5,
+    "Petka": 8,
+    "Oncike": 10,
+    "Zmoga": 6,
+}
+for vardas, pasiekimai in studziai.items():
+    print(vardas, pasiekimai)
