@@ -225,3 +225,74 @@ import string
 # random_string = ''.join(random.choice(simboliai) for _ in range(ilgis))
 # print("random_string", random_string)
 
+# 2023 09 07
+
+# vardai = ["jonas", "petras", "marius", "laura"]
+
+# pirmas_vardas =  vardai.pop()
+# print(pirmas_vardas)
+
+# vardai.insert(1, "Giedrius")
+# print(vardai) #meta į nurodytą vietą
+
+# vardai.append("Giedrius2")
+# print(vardai) #meta į galą
+
+# vardai.sort()
+# print(vardai) #asc atmaina (r86iuos nuo galo)
+#
+# vardai.sort(reverse=True)
+# print(vardai) #desc atmaina (r86iuos nuo galo)
+
+# vardai.remove("Giedrius")
+# print(vardai) #išmeta Giedrių
+
+# vaisiai = ("obuolys", "kriause", "banana", "braske")
+#
+# # vaisiai1 = ["obuolys", "kriause", "banana", "braske"]
+#
+# vaisiai = {
+#     "obuolys",
+#     "kriause",
+#     "banana",
+#     "braske"
+#     }
+
+# vaisiai2 = vaisiai[2]
+# print(vaisiai2)
+
+# skaiciai = (3.14, 2.71)
+# x, y = skaiciai
+# print(x)
+# print(y)
+
+# vaisiai1 = ["obuolys", "kriause", "banana", "braske"]
+# for indeksas, vaisius in enumerate(vaisiai1, start=1):
+#     print(f"{indeksas}, {vaisius}")
+
+# with open("failo_pav.txt", 'w', encoding='utf-8') as file:
+#     content = file.write("Kuriame naują failą")
+#     print(content)
+
+    # w = write
+    # r = read
+#     a = append (pridedam)
+
+# with open("failo_pav.txt", 'r', encoding='utf-8') as file:
+# #     content = file.read()
+# #     print(content)
+
+#
+# with open("failo_pav.txt", 'a', encoding='utf-8') as file:
+#     content = file.write("papildomas tekstas")
+#     print(content)
+#
+# with open("failo_pav.txt", 'r', encoding='utf-8') as file:
+#     for eilute in file:
+#         print(eilute.strip())
+
+# with open("vaisiai.txt", 'r', encoding='utf-8') as file:
+#     file.write('Obuolys, \nKriause, \nBananas, \nBraske') #5ra6o
+#     vaisiai = file.readlines() #nuskaito
+#     print(vaisiai)
+

@@ -164,11 +164,59 @@
 # 2. Turite žodyną su studentų vardais ir jų pažymiais. Parašykite "for" ciklą,
 # kuris išveda kiekvieno studento vardą ir jo pažymį.
 
-studziai = {
-    "Jonas": 5,
-    "Petka": 8,
-    "Oncike": 10,
-    "Zmoga": 6,
-}
-for vardas, pasiekimai in studziai.items():
-    print(vardas, pasiekimai)
+# studziai = {
+#     "Jonas": 5,
+#     "Petka": 8,
+#     "Oncike": 10,
+#     "Zmoga": 6,
+# }
+# for vardas, pasiekimai in studziai.items():
+#     print(vardas, pasiekimai)
+
+# 3. Sukurkite tuščią sąrašą sarasas ir leiskite vartotojui įvesti skaičius.
+# Naudojant "while" ciklą, pridėkite kiekvieną įvestą skaičių prie sąrašo.
+# Ciklą nutraukite, kai vartotojas įveda 0.
+
+# Ivestis = []
+# while True:
+#     vesk = int(input("Įvesk skaičių (jei nori baigti, įvesk 0) "))
+#     if vesk == 0:
+#         break
+#     else:
+#         Ivestis.append(vesk)
+# print(Ivestis)
+
+# pateikimui
+
+
+
+# 4. Turite žodyną, kuriame saugomi gėrimų pavadinimai ir jų kainos.
+# Vartotojas įveda gėrimo pavadinimą, o jūs patikrinkite, ar tokio pavadinimo gėrimas yra žodyne.
+# Jei taip, išveskite jo kainą; jei ne, išveskite pranešimą "Gėrimas nerastas".
+
+# gėrimai = {
+#     "Fanta": 2.5,
+#     "Vytautas": 1.5,
+#     "Regal": 45
+# }
+# vesk = str(input("Įveskite gėrimo pavadinima "))
+# if vesk in gėrimai:
+#     kaina = gėrimai[vesk]
+#     print("tokį gėrimą turime, jo kaina ", kaina)
+# else:
+#     print("tokio gėrimo neturim")
+
+# 5. Patikrinkite, ar skaičiai sąraše yra lyginiai arba nelyginiai.
+# ukurkite du tuščius sąrašus: vienas lyginiams ir kitą nelyginiams skaičiams,
+# išrūšiuokite lyginius ir nelyginius skaičius iš skaičiai sąrašo.
+
+# skaiciai = [2, 5, 7, 10, -1, 6, 8, 0]
+# lyginiai = []
+# nelyginiai = []
+# for skaicius in skaiciai:
+#     if skaicius %2 ==0:
+#         lyginiai.append(skaicius)
+#     else:
+#         nelyginiai.append(skaicius)
+# print("lyginiai ", lyginiai)
+# print("nelyginiai ", nelyginiai)
