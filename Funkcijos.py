@@ -102,3 +102,44 @@
 # n = 8
 # didesni_sk = didesnis(listas, n)
 # print(f"sarase skaiciai didesni uz {n}: yra {didesni_sk}")
+
+# 1. Parašykite funkciją, kuri priimtų sąrašą studento pažymių ir grąžintų vidurkį;
+
+# def SPV(pazymiai): #SPV - studento pažymių vidurkis
+#     suma = sum(pazymiai)
+#     vidurkis = suma /len(pazymiai)
+#     return (vidurkis)
+#
+# Petraitis = [0, 2, 2, 2] ##ok, bet jei laukelis tuščias, pvz. studentas dar neatsiskaitė už konkretų modulį?
+# St_vid = SPV(Petraitis)
+# print(f"Studento vidurkis yra {St_vid}")
+
+
+# 2. Sukurkite funkciją pirminiai_skaiciai(n), kuri priima sveikąjį skaičių n,
+# ir grąžina visus pirminius skaičius nuo 2 iki n;
+
+# def pirminiai_skaiciai(n): ## neina įdėt break????
+#     PS = [sk for sk in range(2, n+1) if sk > 1 for daliklis in range(2, sk) if (sk % daliklis) != 0]
+#     return PS
+#
+# a = 7
+# rezas = pirminiai_skaiciai(a)
+# print(rezas)
+
+
+# def pirminiai_skaiciai(n):
+#     PS = []
+#     for sk in range(2, n + 1):
+#         pirminis = True
+#         for daliklis in range(2, sk):
+#             if sk % daliklis == 0:
+#                 pirminis = False
+#                 break
+#         if pirminis:
+#             PS.append(sk)
+#     return PS
+#
+# a = 11
+# rezas = pirminiai_skaiciai(a)
+# print(f"pirminiai skaičiai intervale nuo 2 iki {a} yra {rezas}")
+
