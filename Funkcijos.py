@@ -143,3 +143,72 @@
 # rezas = pirminiai_skaiciai(a)
 # print(f"pirminiai skaičiai intervale nuo 2 iki {a} yra {rezas}")
 
+# 4. Sukurkite funkciją didziausias_elementas(sarasas), kuri priima sąrašą skaičių ir grąžina didžiausią elementą;
+
+# def didziausias_elementas(sarasas):
+#     didziausias_sk = sarasas[0]
+#     for skaicius in sarasas:
+#         if skaicius > didziausias_sk:
+#             didziausias_sk = skaicius
+#     return didziausias_sk
+#
+# sk_sarasas = [20, 5, 1, 0, 18]
+# maxas = didziausias_elementas(sk_sarasas)
+# print(maxas)
+
+# # 5. Sukurkite funkciją kvadrato_plotas(ilgis), kuri priima kvadrato kraštinės ilgį ir grąžina kvadrato plotą.
+#
+# def kvadrato_plotas(ilgis):
+#     KP = ilgis * ilgis
+#     return KP
+#
+# KP = kvadrato_plotas(3)
+# print(KP)
+
+# 6. Sukurkite funkciją sarasas_suma(sarasas), kuri priima sąrašą skaičių ir suskaičiuoja jų sumą.
+# Leiskite vartotojui įvesti sąrašą skaičių ir išvesti jų sumą;
+
+# def sarasas_suma(sarasas):
+#     suma = 0
+#     for sk in sarasas:
+#         suma += sk
+#     return (suma)
+#
+# sarasas = []
+# while True:
+#     sk = int(input("įveskite sveikus skaicius (arba 0 jei norite baigti "))
+#     if sk ==0:
+#         break
+#     else:
+#         sarasas.append(sk)
+#
+# sumele = sarasas_suma(sarasas)
+# print(sumele)
+
+# def sarasas_suma(sarasas):
+#     sarasas = []
+#     while True:
+#         sk = int(input("įveskite sveikus skaicius (arba 0 jei norite baigti "))
+#         if sk == 0:
+#             break
+#         else:
+#             sarasas.append(sk)
+#     suma = 0
+#     for sk in sarasas:
+#         suma += sk
+#     return (suma)
+#
+#
+# sarasas = []
+# sumele = sarasas_suma(sarasas)
+# print(sumele)
+
+# 7. Sukurkite funkciją, kuri priimtų skaičių sąrašą ir grąžintų visų sąrašo skaičių sandaugą.
+
+# def mano_sarasas(sarasas):
+#    sandauga = 1
+#    for skaicius in sarasas:
+#         sandauga *= skaicius
+#    return sandauga
+# sk_sarasas = [2, 4, 6, 8, 10]
+# print('Saraso skaiciu sandauga lygi:',mano_sarasas (sk_sarasas))
