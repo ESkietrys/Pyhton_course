@@ -16,3 +16,17 @@
 #
 # help(daugyba)
 
+# from datetime import datetime
+# dir(datetime)
+# print(datetime.now())
+#
+# GAL ĮMANOMA IMPORTUOTI VISĄ STATISTINIŲ, MATEMATINIŲ FUNKCIJŲ PAKETĄ?
+
+# from statistics import * #import all *
+# # #
+# pazymiai = [2, 5, 5, 2, 5]
+# print(f"Pažymių vidurkis: {mean(pazymiai)}")
+# print(f"Pažymių moda: {mode(pazymiai)}")
+
+
+
